@@ -1,3 +1,6 @@
 node_modules/
 .DS_Store
 *.log
+
+# Local secrets - never commit the real payment key (copy js/config.example.js to js/config.js)
+js/config.js
